@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+    <title>Rotas</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+        <a class="logo" href="index.html"><span class="icon-logoFockinkWhite"><span class="path1"></span><span
+                    class="path2"></span><span class="path3"></span></span></a>
+        <nav>
+            <a href="#menu">Sumário</a>
+        </nav>
+    </header>
+
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fluxograma.html">1. Fluxograma</a></li>
+            <li><a href="rotas.html">2. Rotas</a></li>
+            <li><a href="aereacao.html">3. Aeração</a></li>
+            <li><a href="motores.html">4. Motores</a></li>
+            <li><a href="medicao.html">5. Medição</a></li>
+            <li><a href="relatorios.html">6. Relatórios</a></li>
+            <li><a href="indicadores.html">7. Indicadores</a></li>
+            <li><a href="diagnostico.html">8. Diagnóstico</a></li>
+            <li><a href="usuarios.html">9. Usuários</a></li>
+            <li><a href="parametros.html">10. Parâmetros</a></li>
+            <li><a href="horimetros.html">11. Horímetros</a></li>
+            <li><a href="cadastro.html">12. Cadastro</a></li>
+            <li><a href="alarmes.html">13. Alarmes</a></li>
+            <li><a href="versao.html">Versão</a></li>
+        </ul>
+    </nav>
+
+    <!-- Heading -->
+    <!-- <div id="heading" >
+				<h1>ROTAS</h1>
+			</div> -->
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <div class="content">
+                <header>
+                    <h2>Rotas</h2>
+                </header>
+                <h3>Criando uma Rota</h3>
+                <p>
+                    &emsp;&emsp;&emsp;&emsp;O <strong>primeiro</strong> passo para criar uma rota é abrir no menu
+                    principal a tela de
+                    <strong>"Edição de rotas"</strong> a rota deve ser selecionada com direção <strong>ORIGEM</strong>
+                    até o
+                    <strong>DESTINO</strong> desejado como no vídeo abaixo, não esqueça de salvar! &#128521;
+                </p>
+                <video controls>
+                    <source src="assets/videos/edicao.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <h3>LEGENDAS EDIÇÃO DE ROTAS</h3>
+                <img id="edicao-rotas-img" src="assets/images/EdicaoRotas.png" alt="gerenciador_rotas" />
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Índice</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    Rota.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    Número da rota.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Nome da rota.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Campo para digitar o nome da rota.</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Bloqueia para editar de rotas manualmente.</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Estado atual da rota.</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Habilita para ligar rotas paralelas, rotas que se interligam em um equipamento.</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Todos equipamentos disponiveis para adicionar a rota.</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Todos equipamentos disponiveis para remover da rota.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="buttons-container">
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonPlus.png" alt="button_send" />
+                        <span>Adiciona um equipamento a rota.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonMinus.png" alt="button_send" />
+                        <span>Remove um equipamento da rota.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonLeft.png" alt="button_send" />
+                        <span>Move o equipamento selecionado para a posição anterior.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonRight.png" alt="button_send" />
+                        <span>Move o equipamento selecionado para a posição posterior.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonClean.png" alt="button_send" />
+                        <span>Apaga rota do campo.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonReport.png" alt="button_send" />
+                        <span>Backup das rotas.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonSearch.png" alt="button_send" />
+                        <span>Busca rotas do backup.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonSave.png" alt="button_send" />
+                        <span>Salva a rota para usar no gerenciador.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonSend.png" alt="button_send" />
+                        <span>Envia rota selecionada para o campo abaixo.</span>
+                    </div>
+                </div>
+                <hr>
+                <p>
+                    &emsp;&emsp;&emsp;&emsp;O <strong>segundo</strong> passo é abrir no menu principal a tela de
+                    <strong>"Rotas"</strong> selecionar a rota que foi criada e enviar para um gerenciador, feito isso
+                    você ja pode mandar ligar a rota! Lembrando
+                    que o próprio gerenciador já faz o acionamento em sentido contrário ao fluxo.
+                </p>
+                <video controls>
+                    <source src="assets/videos/rodando.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <p>
+                    &emsp;&emsp;&emsp;&emsp;Cada gerenciador pode ligar apenas uma rota, mas podem ser usados mais de um
+                    gerenciador ao mesmo tempo, você também pode operar as rotas pelo atalho que fica na tela do
+                    fluxograma, para fazer isso basta arrastar o mouse até o
+                    topo da tela.
+                </p>
+
+                <h3>Legenda Gerenciador</h3>
+                <img id="gerenciador-rotas-img" src="assets/images/GerenciadorRotas.png" alt="gerenciador_rotas" />
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Índice</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    Representa o numero do gerenciador e a Rota designada.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    Opção para filtrar por grupos de rotas (Ex: Recebimento, Expedição, Transilagem,
+                                    etc).
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Opção para filtrar pelo equipamento Origem da Rota.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Opção para filtrar pelo equipamento Destino da Rota.</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Número total de rotas cadastradas.</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Número da rota selecionada.</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Nome da rota selecionada.</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Origem da rota selecionada.</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Destino da rota selecionada.</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Número de equipamentos cadastrados na rota.</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Sequência dos equipamentos da rota.</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Escolhe o Grupo que deseja manter a rota selecionada.</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>
+                                    Escolhe o Gerenciador que deseja enviar a rota selecionada
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Gerenciador selecionado.</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>Número da rota.</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>Nome da rota</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>Status da rota.</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>Progresso da rota</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>Equipamento em processo</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>
+                                    Seleciona se desliga a rota pelo nivel ou apenas fecha a origem.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>Seleciona se deseja animar os canos.</td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>Define o tempo que levará para desligar a rota.</td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>Progresso da rota.</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>
+                                    Quando o equipamento de origem da rota tem leitura de corrente é possível
+                                    estimar</br> o aproveitamento da capacidade(ton/h) do mesmo através da leitura de
+                                    corrente.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>Corrente máxima e utilizada.</td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>Tonelada hora máxima e utilizada.</td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td>Potência do equipamento.</td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td>Corrente do equipamento.</td>
+                            </tr>
+                            <tr>
+                                <td>29</td>
+                                <td>Tag do equipamento.</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>
+                                    Corrente do equipamento a vazio (corrente sem produto)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="buttons-container">
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonSend.PNG" alt="button_send" />
+                        <span>Botão que envia a rota para o gerenciador.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonClean.PNG" alt="button_send" />
+                        <span>Botão que apaga todos os dados do gerenciador.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-img" src="assets/images/ButtonReset.PNG" alt="button_send" />
+                        <span>Botão que altera o valor da corrente nominal a vazio.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-liga-img" src="assets/images/ButtonLiga.PNG" alt="button_send" />
+                        <span>Botão que liga a rota.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-liga-img" src="assets/images/ButtonDesliga.PNG" alt="button_send" />
+                        <span>Botão que desliga a rota.</span>
+                    </div>
+                </div>
+                <hr>
+                <h3>Atalho Gerenciador</h3>
+                <img id="atalhorotas-gif" src="assets/AtalhoRotas.gif" alt="atalho_rotas" />
+                <h3>LEGENDAS ATALHO GERENCIADOR</h3>
+                <img id="atalho-rotas-img" src="assets/images/GerenciadorAtalho.png" alt="gerenciador_rotas" />
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Índice</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    Número do gerenciador.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    Número da rota.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Rota.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Status da rota.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="buttons-container">
+                    <div class="buttons-item">
+                        <img class="buttons-liga-img" src="assets/images/ButtonLiga.PNG" alt="button_send" />
+                        <span>Botão que liga a rota.</span>
+                    </div>
+                    <div class="buttons-item">
+                        <img class="buttons-liga-img" src="assets/images/ButtonDesliga.PNG" alt="button_send" />
+                        <span>Botão que desliga a rota.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="content">
+                <section>
+                    <h3>FOCKINK AUTOMAÇÃO</h3>
+                    <p>
+                        Avenida Presidente Kennedy, 3312 - Bairro Arco-Íris CEP 98.280-000 - Panambi - RS - Brasil
+                    </p>
+                </section>
+                <section>
+                    <h4>Contato</h4>
+                    <ul class="alt">
+                        <li>Whatsapp</li>
+                        <li>E-mail</li>
+                    </ul>
+                </section>
+                <section>
+                    <ul class="plain">
+                        <h4>Links</h4>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=5555991183266" target="_blank"><i
+                                    class="icon fa-whatsapp">&nbsp;</i>(55) 9 91183266</a>
+                        </li>
+                        <li>
+                            <a href="mailto:assistenciagpi@fockink.ind.br"><i
+                                    class="icon fa-envelope">&nbsp;</i>assistenciagpi@fockink.ind.br</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="copyright">
+                &copy;
+                <a target="_blank" href="https://www.fockink.ind.br/assistencia">Fockink Indústrias Elétricas</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
